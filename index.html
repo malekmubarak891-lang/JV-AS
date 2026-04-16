@@ -27,11 +27,11 @@
             margin: 10mm auto;
             background: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            position: relative; /* Fixed positions ke liye zaroori hai */
+            position: relative; 
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            overflow: hidden; /* Page se bahar na jaye */
+            overflow: hidden; 
         }
 
         /* Header Design */
@@ -78,14 +78,14 @@
             line-height: 1.4;
         }
 
-        /* Editable Content Area - Scrollable but signature stays fixed */
+        /* Editable Content Area */
         .content {
             flex-grow: 1;
             padding: 10px 0;
             outline: none;
             color: #000000 !important;
-            overflow-y: auto; /* Agar content zyada ho toh scroll ho */
-            margin-bottom: 120px; /* Signature space ke liye margin */
+            overflow-y: auto; 
+            margin-bottom: 120px; 
         }
 
         .letter-body {
@@ -105,7 +105,7 @@
         /* Signature Section - Fixed at Bottom */
         .signature-section {
             position: absolute;
-            bottom: 45mm; /* Footer se thoda upar */
+            bottom: 45mm; 
             right: 20mm;
             width: 250px;
             text-align: center;
@@ -188,7 +188,8 @@
         <!-- Header Section -->
         <header>
             <div class="logo-section">
-                <img src="JV.JPEG" alt="JV Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/100x100?text=JV+LOGO'">
+                <!-- Updated src to match your GitHub file name exactly -->
+                <img src="JV.jpeg" alt="JV Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/100x100?text=JV+LOGO'">
                 <div class="company-info">
                     <h1>JV ASSOCIATES</h1>
                     <p>All Taxes One Solution</p>
